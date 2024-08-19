@@ -20,7 +20,7 @@ module.exports = {
   SERVER: process.env.SERVER || 'defeat',
   ALIVE_DATA : process.env.ALIVE_DATA || "_*Hy &sender i am alive now*_\n\n_PLATFORM: &platform_\n_RUNTIME : &runtime_\n\n_. type alive to update your alive message_",
   IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
-  SESSION_ID: process.env.SESSION_ID || 'ZnNneU5_J_A_R_V_I_S_ZcTU=',
+  SESSION_ID: process.env.SESSION_ID || 'Jarvis_babd_2b10_d6ff_6cef_862f_7df4_72c1_f6da',
   LANG: process.env.LANG || 'EN',
   AUTO_REACTION: process.env.AUTO_REACTION || 'true',
   HANDLERS: process.env.HANDLER  || 'null',
@@ -38,5 +38,5 @@ module.exports = {
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
   BOT_INFO: process.env.BOT_INFO || 'ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://i.imgur.com/VIpl3q5.mp4',
   WORK_TYPE: process.env.WORK_TYPE || 'private',
-  DATABASE: DATABASE_URL === "./database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
+  DATABASE: DATABASE_URL === "postgresql://hermit_judex_user:ZlW63H699aIQBEDiuLfRnzhQ9RBpYat4@dpg-cr08rnjv2p9s73a3hq6g-a.oregon-postgres.render.com/hermit_judex" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
 };
